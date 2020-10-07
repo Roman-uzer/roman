@@ -1,0 +1,71 @@
+/*Переключение между днями*/
+#day1:checked ~ .day-2{
+	display: none;
+}
+
+#day2:checked ~ .day-1{
+	display: none;
+}
+/*Переключение между залами*/
+#hall-1-2:checked ~ .container2{
+	display: none;
+}
+
+#hall-3-4:checked ~ .container1{
+	display: none;
+}
+
+#hall-12:checked ~ .containers2{
+	display: none;
+}
+
+#hall-34:checked ~ .containers1{
+	display: none;
+}
+
+/*оформление кнопок переключения*/
+input[type="radio"] {
+  visibility: hidden;
+}
+
+input[type="radio"]:checked + label {
+  background: #e83737;
+  color: #fff;
+  border-color: #e83737;
+ }
+/*оформление*/
+.container1, .containers1{
+	display: flex;
+	height: 500px;
+	background-color: rgba(0,0,0, .1);
+	justify-content: space-between;
+	
+}
+.container2, .containers2{
+	display: flex;
+	height: 500px;
+	background-color: rgba(0,0,0, .1);
+	justify-content: space-between;
+	
+}
+
+section {
+	padding: 30px 100px;
+}
+
+label {
+	border: 1px solid #000;
+	padding: 10px;
+	text-align: center;
+}
+
+
+.item {
+	text-align: center;
+	padding: 20px;
+	font-size: 50px;
+	color: red;
+	width: 50%;
+	background: #fff;
+	border: 1px solid red;
+}
