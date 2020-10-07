@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style-themes.css">
-  <title>Ромин САЙТ</title>
+	<meta charset="UTF-8">
+	<title>ПРОГРАММА</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body class="page">
-  <header class="page-header">
-    <div class="container">
-      <h1 class="page-title">Мой сайт</h1>
-      <p><i>По всем вопросам пишите:</i><br><a href="meln.r.1998@gmail.com">meln.r.1998@gmail.com</a></p>
-      <button class="theme-button" type="button">Изменить тему</button>
-    </div>
-  </header>
-  <main>
-    <section class="about container">
-      <h2 class="section-title">Сау, я Роман</h2>
-      <img class="about-image" src="img/drawing.svg" width="147" height="147" alt="Неопознанный енот">
-      <div class="about-content">
-        <p>Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.</p>
-        <p>С другой стороны постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке существенных финансовых и административных условий.</p>
-      </div>
-    </section>
-    <section class="status container">
-      <h2 class="section-title">Мой статус</h2>
-      <p>#Practice MAKES Perfect!</p>
-    </section>
-    <section class="contacts container">
-      <h2 class="section-title">Контакты для связи</h2>
-        <p class="contacts-name">Melnikov Roman</p>
-        <p><i>email:</i> <a href="mailto:meln.r.1998@gmail.com">meln.r.1998@gmail.com</a></p>
-        <p><i>телефон:</i> <a href="tel:+7(800) 555 35 35">+7(800) 555 35 35</a></p>
-    </section>
-  </main>
-  <footer class="page-footer">
-    <div class="container">
-      <p>© Roman Corporation</p>
-      <p>2020</p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
+<body>
+
+	<input id="day1" type="radio" name="d" checked>
+	<label for="day1">1 OCTOBER</label>
+	<input id="day2" type="radio" name="d">
+	<label for="day2">2 OCTOBER</label>
+
+	<section class="day-1">
+
+		<input id="hall-1-2" type="radio" name="a1" checked>
+		<label for="hall-1-2">ЗАЛ 1-2</label>
+		<input id="hall-3-4" type="radio" name="a1">
+		<label for="hall-3-4">ЗАЛ 3-4</label>
+
+		<div class="container1">
+			<div class="item">Зал №1</div>
+			<div class="item">Зал №2</div>	
+		</div>
+
+		<div class="container2">
+			<div class="item">Зал №3</div>
+			<div class="item">Зал №4</div>	
+		</div>
+
+	</section>
+
+	<section class="day-2">
+		
+		<input id="hall-12" type="radio" name="a2" checked>
+		<label for="hall-12">ЗАЛ 1-2</label>
+		<input id="hall-34" type="radio" name="a2">
+		<label for="hall-34">ЗАЛ 3-4</label>
+
+		<div class="containers1">
+			<div class="item">Зал №1</div>
+			<div class="item">Зал №2</div>	
+		</div>
+
+		<div class="containers2">
+			<div class="item">Зал №3</div>
+			<div class="item">Зал №4</div>	
+		</div>
+
+	</section>
+
 </body>
 </html>
